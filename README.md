@@ -8,8 +8,8 @@
 </p>
 
 <p>
-  <a href="https://github.com/frontsail/x-sail/releases"><img src="https://img.shields.io/github/v/release/frontsail/x-sail?display_name=tag&style=flat-square" alt="Latest Release"></a>
-  <a href="https://github.com/frontsail/x-sail/blob/main/LICENSE"><img src="https://img.shields.io/github/license/frontsail/x-sail.svg?style=flat-square" alt="License"></a>
+  <a href="https://github.com/frontsail/alpine-sail/releases"><img src="https://img.shields.io/github/v/release/frontsail/alpine-sail?display_name=tag&style=flat-square" alt="Latest Release"></a>
+  <a href="https://github.com/frontsail/alpine-sail/blob/main/LICENSE"><img src="https://img.shields.io/github/license/frontsail/alpine-sail.svg?style=flat-square" alt="License"></a>
 </p>
 
 # @frontsail/alpine-sail
