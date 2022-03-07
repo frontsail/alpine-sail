@@ -11,8 +11,8 @@
   "type": "module",
   "scripts": {
     "format": "prettier --write .",
-    "build": "node ./esbuild.js",
-    "dev": "node ./esbuild.js --watch"
+    "build": "node ./build.js",
+    "dev": "node ./build.js --watch"
   },
   "repository": {
     "type": "git",

@@ -106,7 +106,7 @@ export default function (Alpine) {
           anchor.initial = {
             href: el.getAttribute('href'),
             target: el.getAttribute('target'),
-            rel: el.getAttribute('rel')
+            rel: el.getAttribute('rel'),
           }
         }
 
