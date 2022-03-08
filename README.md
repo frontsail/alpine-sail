@@ -31,7 +31,7 @@ Include the CDN build of this plugin as a `<script>` tag before Alpine's core JS
 <script defer src="https://unpkg.com/@frontsail/alpine-sail@1.x.x/dist/alpine-sail.min.js"></script>
 
 <!-- Alpine core -->
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 ```
 
 ### Via NPM
