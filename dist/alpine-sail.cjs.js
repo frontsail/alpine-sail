@@ -37,7 +37,6 @@ function src_default(Alpine) {
     const anchor = {};
     effect(() => {
       evaluator((evaluated) => {
-        var _a;
         active.splice(0, active.length);
         active.push(...modifiers);
         if (typeof evaluated === "string" || typeof evaluated === "number") {
@@ -48,7 +47,7 @@ function src_default(Alpine) {
           link.path = evaluated.join("/");
         } else if (typeof evaluated === "object") {
           link.path = Array.isArray(evaluated.path) ? evaluated.path.join("/") : evaluated.path.toString();
-          link.state = (_a = evaluated.state) != null ? _a : null;
+          link.state = evaluated.state ?? null;
           link.replace = !!evaluated.replace;
           if (evaluated.active) {
             active.push(...evaluated.active.split(" ").filter(Boolean));
@@ -72,7 +71,6 @@ function src_default(Alpine) {
       }
     }
     function refresh() {
-      var _a;
       if (!_D) {
         return;
       }
@@ -90,7 +88,7 @@ function src_default(Alpine) {
             rel: el.getAttribute("rel")
           };
         }
-        anchor.url = (_a = url == null ? void 0 : url.href) != null ? _a : "";
+        anchor.url = (url == null ? void 0 : url.href) ?? "";
         anchor.external = !anchor.url.startsWith(location.origin + _D.base());
         el.setAttribute("href", anchor.url);
         if (anchor.external) {

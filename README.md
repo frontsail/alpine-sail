@@ -18,7 +18,7 @@ This [Alpine](https://github.com/alpinejs/alpine) plugin adds the magics `$sail`
 
 ## Installation
 
-You can use alpine-sail by either including it from a `<script>` tag or installing it via npm.
+You can use alpine-sail by either including it from a `<script>` tag or installing it via NPM.
 
 > If you are building your app with FrontSail or its core library [Underscored](https://github.com/frontsail/underscored), do not manually install this plugin as it is already included with Underscored.
 
@@ -31,12 +31,12 @@ Include the CDN build of this plugin as a `<script>` tag before Alpine's core JS
 <script defer src="https://unpkg.com/@frontsail/alpine-sail@1.x.x/dist/alpine-sail.min.js"></script>
 
 <!-- Alpine core -->
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script
 ```
 
-### Via npm
+### Via NPM
 
-Install the plugin from npm for use inside your bundle.
+Install the plugin from NPM for use inside your bundle.
 
 ```bash
 npm install @frontsail/alpine-sail
